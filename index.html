@@ -3,11 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=
-    , initial-scale=1.0">
+    <meta name="viewport" content=" initial-scale=1.0">
     <title>Document</title>
     <!--bootstrap link-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 <body>
 
@@ -16,44 +15,26 @@
     </header>
 
     <main>
-
-        <!--Add items-->
-        <section>
-            <div class="text-center container w-50 m-auto ">
-                <div class="input-group">
-                    <textarea class="form-control" aria-label="With textarea"></textarea>
-                      <button class="btn btn-danger">Add Items</button> 
-                  </div>
-                
-            </div>
-        </section>
-        
-
-        <!--Table for items-->
-
-        <section class="my-5">
-            <table class="table container m-auto w-75">
+        <div class="input-group w-50 mx-auto">
+            
+            <input class="" aria-label="With textarea" id="input-field"></input>
+            <button class=" btn btn-danger " id="add-btn">Add items</button>
+          </div>
+    
+        <div class="mt-5 container w-75">
+            <table class="table">
                 <thead>
                   <tr>
-                    
                     <th scope="col">Number</th>
                     <th scope="col">Description</th>
                     <th scope="col">Action</th>
                   </tr>
                 </thead>
-                <tbody>
-                  <tr>
-                    <th scope="row">1</th>
-                    <td>Mark</td>
-                    <td>Otto</td>
-                    
-                  </tr>
-                   
+                <tbody id="table-body">
                 </tbody>
               </table>
-        </section>
+        </div>
     </main>
-
 
     <script src="app.js"></script>
     
