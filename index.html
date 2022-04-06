@@ -12,8 +12,47 @@
 <body>
 
     <header>
-        <h1 class="text-center mt-5"> To Do List</h1>
+        <h1 class="text-center my-5"> To Do List</h1>
     </header>
+
+    <main>
+
+        <!--Add items-->
+        <section>
+            <div class="text-center container w-50 m-auto ">
+                <div class="input-group">
+                    <textarea class="form-control" aria-label="With textarea"></textarea>
+                      <button class="btn btn-danger">Add Items</button> 
+                  </div>
+                
+            </div>
+        </section>
+        
+
+        <!--Table for items-->
+
+        <section class="my-5">
+            <table class="table container m-auto w-75">
+                <thead>
+                  <tr>
+                    
+                    <th scope="col">Number</th>
+                    <th scope="col">Description</th>
+                    <th scope="col">Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    
+                  </tr>
+                   
+                </tbody>
+              </table>
+        </section>
+    </main>
 
 
     <script src="app.js"></script>
