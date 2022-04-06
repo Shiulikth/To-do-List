@@ -1,2 +1,2 @@
 # To-do-List
-HTML, Bootstrap & JavaScript
+To do list creator using HTML, Bootstrap & JavaScript
